@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule suas calorias diárias</title>
+    <link rel="stylesheet" href="./css/novo.css">
+    <style type="text/css">
+        h1 {
+            color: #040fe9d1;
+            font-size: 30px;
+            font-style: italic;
+
+        }
+
+        label {
+            color: #000000
+        }
+
+        div {
+            color: #fff
+        }
+    </style>
+    <script src="./js/novo.js" defer></script>
+</head>
+
+<body>
+
+    <section class="container">
+
+
+        <div id="container-left">
+            <p>
+                <button id="btn">Você sabe o que é BULKING?</button>
+            </p>
+        </div>
+
+        <p>
+
+        <form action="/" id="formulario" method="POST">
+
+            <h1>CALORIAS DIÁRIAS</h1>
+
+            <label for="sexo">Sexo (1)masc/(2)femi</label>
+            <input type="text" id="sexo">
+
+            <label for="idade">Idade</label>
+            <input type="text" id="idade">
+
+            <label for="peso">Peso KG</label>
+            <input type="text" id="peso">
+
+            <label for="altura">Altura em cm</label>
+            <input type="text" id="altura">
+
+            <button type="submit">Enviar</button>
+
+            <div id="resultado"></div>
+
+        </form>
+        </p>
+
+
+        
+
+        <div id="container-rigth">
+            <p>
+                <button id="btn-2">Você sabe o que é CUTTING?</button>
+            </p>
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>
